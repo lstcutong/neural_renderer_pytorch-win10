@@ -1,0 +1,2 @@
+# neural_renderer_pytorch-win10
+解决neural_renderer_pytorch在win10上编译安装的问题
