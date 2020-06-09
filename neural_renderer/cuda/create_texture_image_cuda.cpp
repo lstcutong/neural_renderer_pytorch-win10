@@ -21,9 +21,9 @@ at::Tensor create_texture_image(
         at::Tensor image,
         float eps) {
 
-    CHECK_INPUT(vertices_all);
-    CHECK_INPUT(textures);
-    CHECK_INPUT(image);
+    //CHECK_INPUT(vertices_all);
+    //CHECK_INPUT(textures);
+    //CHECK_INPUT(image);
     
     return create_texture_image_cuda(vertices_all, textures, image, eps);
 }
